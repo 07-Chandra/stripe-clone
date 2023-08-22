@@ -1,0 +1,12 @@
+.serve {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    row-gap: 15px;
+    border-top: 5px solid #9966ff;
+
+    .link {
+        justify-self: end;
+    }
+}

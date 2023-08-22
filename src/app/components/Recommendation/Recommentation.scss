@@ -1,0 +1,28 @@
+.recommendation {
+    display: flex;
+    justify-content: center;
+    .recommendation-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 90%;
+        .left-part {
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+        }
+
+        .right-part {
+            .list {
+                list-style-type: none;
+                margin-left: 20px;
+                .item {
+                    font-size: 15px;
+                    margin-block: 15px;
+                    color: #425466;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

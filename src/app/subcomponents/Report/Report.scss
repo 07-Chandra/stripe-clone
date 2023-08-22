@@ -1,0 +1,19 @@
+.card-report {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px 15px;
+
+    .tag-wrap {
+        width: 100px;
+        background-color: #e7eaef;
+        padding: 3px 8px;
+        text-align: center;
+        border-radius: 10px;
+        p{
+            // color: black;
+            font-weight: 550;
+            font-size: 13px;
+        }
+    }
+}

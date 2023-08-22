@@ -1,0 +1,44 @@
+.hero-payment {
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    .image-wrapper {
+        width: 100%;
+        max-width: 450px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .desc-wrap {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 20px 25px;
+        background-color: white;
+        box-shadow: 0px 4px 16px rgb(0 0 0/16%);
+        .description {
+            border-bottom: 1px solid rgb(227, 224, 224);
+            .subheading{
+                margin-block: 15px;
+            }
+            .paragraph{
+                margin-block: 20px;
+            }
+        }
+
+        .link-wrapper {
+            margin-block: 10px;
+            .link {
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                color: #635bff;
+                &:hover {
+                    color: #0a2540;
+                }
+            }
+        }
+    }
+}
