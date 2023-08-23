@@ -1,0 +1,23 @@
+.explore {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    .explore-container {
+        width: 98%;
+
+        .all-cards {
+            margin-block: 60px;
+            padding: 20px 20px;
+            display: flex;
+            flex-wrap: nowrap;
+            column-gap: 20px;
+            overflow-x: scroll;
+            // scrollbar-width: none;
+
+            &::-webkit-scrollbar{
+                height: 0px;
+                
+            }
+        }
+    }
+}

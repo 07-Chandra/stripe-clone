@@ -11,7 +11,13 @@
 
   --purple-color : #635bff;
   --subtext : #425466;
+  --bg-color :#f6f9fc;
 
+}
+
+img{
+  width: 100%;
+  height: 100%;
 }
 
 * {

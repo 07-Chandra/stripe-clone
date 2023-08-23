@@ -1,0 +1,40 @@
+.authorization{
+
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: #f6f9fc;
+    .authorization-container{
+        width: 90%;
+        .header{
+
+            .paragraph{
+                margin-block: 25px;
+            }
+        }
+
+        .all-features{
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+
+            .features{
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+                .subheading{
+                    font-size: 18px;
+
+                }
+                .paragraph{
+                    font-size: 15px;
+                }
+
+                span{
+                    color: var(--purple-color);
+                }
+            }
+
+        }
+    }
+}
