@@ -129,7 +129,7 @@ function Global() {
                         </div>
                         <div className="revenue-types">
                             <div className="revenue-item">
-                                <div className="about-revenue">
+                                <div className="about-revenue special-case">
                                     <div className="subheading">
                                         Unify commerce with in‑person payments
                                     </div>
@@ -153,7 +153,7 @@ function Global() {
 
                             <div className="image-wrapper image2">
                                 <img
-                                    src="https://images.ctfassets.net/fzn2n1nzq965/7ItzfiwAthFMoAox6VUfiG/825d386aa14d322432d711c3878aa1ce/authrates.png?q=80&fm=webp"
+                                    src="https://images.ctfassets.net/fzn2n1nzq965/4JqB7lXUNJqPRrqwY0GTyC/5c923a0964af4fa8ed914ecb588d5ea4/terminal-sign.png?q=80&fm=webp"
                                     alt="Sign in image"
                                 />
                             </div>
@@ -256,7 +256,7 @@ function Global() {
 
                         <div className="sponsor">
                             <div className="image-part">
-                               <span>41</span>
+                                <span>41</span>
                             </div>
                             <div className="desc">
                                 <div className="fame">

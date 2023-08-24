@@ -1,6 +1,5 @@
-.global {
+.finance {
     display: flex;
-
     justify-content: center;
     padding: 30px 0px;
     .global-container {
@@ -30,10 +29,6 @@
                     row-gap: 40px;
 
                     .revenue-item {
-                        .special-case {
-                            margin-top: -280px;
-                            background-color: white;
-                        }
                         .about-revenue {
                             padding: 0px 20px;
                             display: flex;
@@ -145,8 +140,9 @@
     }
 }
 
+
 @media only screen and (min-width: 650px) {
-    .global {
+    .finance {
         .global-container {
             width: 80%;
             .header {
@@ -217,7 +213,7 @@
 }
 
 @media only screen and (min-width: 900px) {
-    .global {
+    .finance {
         .global-container {
             width: 75%;
             .header {

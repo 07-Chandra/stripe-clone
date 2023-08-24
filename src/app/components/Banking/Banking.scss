@@ -27,7 +27,8 @@
                     display: flex;
                     flex-direction: column-reverse;
                     align-items: center;
-                    row-gap: 40px;overflow: hidden;
+                    row-gap: 40px;
+                    overflow: hidden;
 
                     .revenue-item {
                         .about-revenue {
@@ -80,9 +81,8 @@
                         }
                     }
                     .image2 {
-
                         margin-top: -100px;
-                        
+
                         width: 370px;
                         height: 100%;
                         object-fit: contain;
@@ -116,7 +116,7 @@
                             border-radius: 10px;
                         }
 
-                        span{
+                        span {
                             font-weight: 700;
                             color: #ff5a86;
                             font-size: 80px;
@@ -136,6 +136,154 @@
                             font-weight: 500;
                             font-size: 15px;
                             color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .banking {
+        .global-container {
+            width: 80%;
+            .header {
+                .paragraph {
+                    margin-block: 15px;
+                }
+            }
+
+            .global-parts {
+                // width: 80%;
+                .all-revenues {
+                    .revenue-types {
+                        flex-direction: row;
+
+                        .revenue-item {
+                            flex: 2;
+
+                            .special-case {
+                                margin-top: 0px;
+                                background-color: transparent;
+                            }
+
+                            // padding: 20px 30px;
+                            .about-revenue {
+                                width: 90%;
+                                row-gap: 30px;
+
+                                .tags {
+                                    flex-wrap: wrap;
+                                }
+                            }
+                        }
+
+                        .image-wrapper {
+                            flex: 1;
+                            flex-direction: column;
+                            height: 100%;
+                            row-gap: 20px;
+
+                            .wrap-svg {
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+                        .image2 {
+                            width: 370px;
+                            height: 100%;
+                            object-fit: contain;
+                            // margin-block: 10px;
+                            img {
+                                object-fit: contain;
+                                background-size: contain;
+                            }
+                        }
+                    }
+                }
+
+                .all-sponsor {
+                    .sponsor {
+                        .image-part {
+                            max-width: 720px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .banking {
+        .global-container {
+            width: 75%;
+            .header {
+                .paragraph {
+                    margin-block: 15px;
+                }
+            }
+
+            .global-parts {
+                flex-direction: row;
+                column-gap: 30px;
+
+                .all-revenues {
+                    flex: 1;
+                    .revenue-types {
+                        flex-direction: row;
+
+                        .revenue-item {
+                            flex: 2;
+
+                            .special-case {
+                                margin-top: 0px;
+                                background-color: transparent;
+                            }
+
+                            // padding: 20px 30px;
+                            .about-revenue {
+                                width: 100%;
+                                row-gap: 30px;
+
+                                .tags {
+                                    flex-wrap: wrap;
+                                }
+                            }
+                        }
+
+                        .image-wrapper {
+                            flex: 1;
+                            flex-direction: column;
+                            height: 100%;
+                            row-gap: 20px;
+
+                            .wrap-svg {
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+                        .image2 {
+                            width: 500px;
+                            // height: 300px;
+                            object-fit: contain;
+                            // margin-block: 10px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                // object-fit:none;
+                                // background-size:auto;
+                            }
+                        }
+                    }
+                }
+
+                .all-sponsor {
+                    flex: 1;
+                    .sponsor {
+                        .image-part {
+                            max-width: 720px;
                         }
                     }
                 }
