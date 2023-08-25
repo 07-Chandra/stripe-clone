@@ -46,7 +46,7 @@
                 color: white;
 
                 .title {
-                    color: #E3B476;
+                    color: #e3b476;
                     font-size: 100px;
                     font-weight: bold;
                 }
@@ -55,6 +55,58 @@
                     text-align: center;
                     font-weight: 600;
                     font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .enterprise {
+        .enterprise-wrap {
+            height: 98vh;
+
+            .title-section {
+                width: 100%;
+                .header-section {
+                    padding-inline: 50px;
+                }
+
+                .text-section {
+                    .title {
+                    }
+
+                    .desc {
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .enterprise {
+        .enterprise-wrap {
+            padding-block: 60px;
+            height: 95vh;
+
+            .title-section {
+                width: 90%;
+                .header-section {
+                    padding-inline: 50px;
+                }
+
+                .text-section {
+                    // margin-top: -50px;
+                    transform: translateY(-50px);
+                    .title {
+                        font-size: 140px;
+                    }
+
+                    .desc {
+                        font-weight: 500px;
+                        font-size: 26px;
+                    }
                 }
             }
         }

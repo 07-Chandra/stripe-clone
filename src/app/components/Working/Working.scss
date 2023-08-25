@@ -127,15 +127,19 @@
 
             .tech-work {
                 display: flex;
+                flex-direction: row;
                 column-gap: 40px;
                 .support {
                     flex: 1.6;
                     height: 100%;
+                    padding: 50px 20px;
                 }
                 .nord-security {
                     flex: 1;
                     row-gap: 30px;
                     height: 340px;
+                    height: 100%;
+                    padding: 50px 20px;
                 }
             }
 

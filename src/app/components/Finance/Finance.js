@@ -17,7 +17,7 @@ function Finance() {
                 <div className="global-parts">
                     <div className="all-revenues">
                         <div className="revenue-types">
-                            <div className="revenue-item">
+                            <div className="revenue-item item1">
                                 <div className="about-revenue">
                                     <div className="subheading">
                                         Power recurring revenue and recover up
@@ -50,13 +50,13 @@ function Finance() {
 
                             <div className="image-wrapper">
                                 <img
-                                    src="https://images.ctfassets.net/fzn2n1nzq965/2jWs8vjur4wyvjSZe5udSY/22bee1f77c69e0ea2e347e6062e2e6bf/revrec.png?q=80&fm=webp&w=690"
+                                    src="https://images.ctfassets.net/fzn2n1nzq965/3OappuOleWyea7pg6oiRUr/b79c2ae827eed3f287f454e09499df63/retool.png?q=80&fm=webp&w=212"
                                     alt="Sign in image"
                                 />
                             </div>
                         </div>
                         <div className="revenue-types">
-                            <div className="revenue-item">
+                            <div className="revenue-item card-item2">
                                 <div className="about-revenue">
                                     <div className="subheading">
                                         Automate sales tax, VAT, and GST
@@ -75,7 +75,7 @@ function Finance() {
                                 </div>
                             </div>
 
-                            <div className="image-wrapper image2">
+                            <div className="image-wrapper image5">
                                 <img
                                     src="https://images.ctfassets.net/fzn2n1nzq965/7qDb68b5sC3K0BoeKbDXZ3/561e8c64485c5a044c12fd3837a25602/automate_us.png?q=80&fm=webp&w=304"
                                     alt="Sign in image"
@@ -83,8 +83,8 @@ function Finance() {
                             </div>
                         </div>
 
-                        <div className="revenue-types">
-                            <div className="revenue-item">
+                        <div className="revenue-types ">
+                            <div className="revenue-item card-item1">
                                 <div className="about-revenue">
                                     <div className="subheading">
                                         Close the books faster and get real-time

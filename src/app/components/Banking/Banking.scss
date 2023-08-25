@@ -16,12 +16,14 @@
             flex-direction: column;
             row-gap: 50px;
             .all-revenues {
+                overflow: hidden;
                 display: flex;
                 flex-direction: column;
                 row-gap: 40px;
                 .revenue-types {
+                    overflow: hidden;
                     border: 1px solid rgb(197, 197, 197);
-                    padding: 50px 10px;
+                    // padding: 50px 10px;
                     border-radius: 10px;
                     background-color: var(--bg-color);
                     display: flex;
@@ -54,9 +56,21 @@
                                 }
                             }
                         }
+                        .item2 {
+                            background-color: white;
+                            // margin-top: -40px;
+                            padding: 40px;
+                        }
+                    }
+
+                    .item1 {
+                        background-color: white;
+                        margin-top: -300px;
+                        padding-block: 50px;
                     }
                     .image-wrapper {
-                        height: 200px;
+                        padding: 30px;
+                        // height: 200px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -158,7 +172,10 @@
                 // width: 80%;
                 .all-revenues {
                     .revenue-types {
+                        padding: 10px 20px;
                         flex-direction: row;
+                        // align-items: center;
+                        // justify-content: center;
 
                         .revenue-item {
                             flex: 2;
@@ -177,27 +194,32 @@
                                     flex-wrap: wrap;
                                 }
                             }
+
+                            .item2 {
+                                background-color: transparent;
+                                // margin-top: -40px;
+                                padding: 0px;
+                            }
+                        }
+                        .item1 {
+                            background-color: transparent;
+                            margin-top: 0px;
+                            // padding-block: 50px;
                         }
 
                         .image-wrapper {
+                            width: 500px;
                             flex: 1;
                             flex-direction: column;
                             height: 100%;
                             row-gap: 20px;
 
-                            .wrap-svg {
-                                width: 150px;
-                                height: 150px;
-                            }
-                        }
-                        .image2 {
-                            width: 370px;
-                            height: 100%;
-                            object-fit: contain;
-                            // margin-block: 10px;
                             img {
-                                object-fit: contain;
-                                background-size: contain;
+                                width: 220px;
+                            }
+
+                            .img {
+                                width: 250px;
                             }
                         }
                     }
@@ -229,8 +251,9 @@
                 flex-direction: row;
                 column-gap: 30px;
 
+                margin-block: 50px;
                 .all-revenues {
-                    flex: 1;
+                    flex: 2;
                     .revenue-types {
                         flex-direction: row;
 
@@ -251,39 +274,31 @@
                                     flex-wrap: wrap;
                                 }
                             }
-                        }
-
-                        .image-wrapper {
-                            flex: 1;
-                            flex-direction: column;
-                            height: 100%;
-                            row-gap: 20px;
-
-                            .wrap-svg {
-                                width: 150px;
-                                height: 150px;
+                            .item2 {
+                                padding: 40px;
                             }
                         }
-                        .image2 {
-                            width: 500px;
-                            // height: 300px;
-                            object-fit: contain;
-                            // margin-block: 10px;
-                            img {
-                                width: 100%;
-                                height: 100%;
-                                // object-fit:none;
-                                // background-size:auto;
-                            }
-                        }
+
+                        // .image-wrapper {
+                        //     flex: 1;
+                        //     flex-direction: column;
+                        //     height: 100%;
+                        //     row-gap: 20px;
+
+                        //     .wrap-svg {
+                        //         width: 150px;
+                        //         height: 150px;
+                        //     }
+                        // }
                     }
                 }
 
                 .all-sponsor {
-                    flex: 1;
+                    flex: 1.2;
                     .sponsor {
-                        .image-part {
-                            max-width: 720px;
+                        .sponsor-img{
+                            margin-block: 10px;
+                            width: 100%;
                         }
                     }
                 }

@@ -1,13 +1,12 @@
 import React from "react";
 import "./Business.scss";
-function Business() {
+function Business({name ,about}) {
     return (
         <div className="business">
             <div className="about-business">
-                <div className="subheading">Global business</div>
+                <div className="subheading">{name}</div>
                 <div className="paragraph">
-                    Enter new markets, optimize payments infrastructure, and
-                    easily add new business models and revenue streams.
+                   {about}
                 </div>
                 <div className="link">Learn More</div>
             </div>

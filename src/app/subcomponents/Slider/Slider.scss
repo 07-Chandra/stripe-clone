@@ -1,0 +1,22 @@
+.slider{
+    display: flex;
+    column-gap: 25px;
+    width: 330px;
+
+    .link{
+
+        font-size: 13px;
+
+    }
+    .news-data{
+        font-weight: 600;
+        font-size: 13px;
+
+    }
+    .svg{
+        width: 50px;
+        height: 20px;
+    }
+
+
+}

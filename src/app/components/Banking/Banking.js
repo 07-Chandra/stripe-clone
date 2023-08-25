@@ -18,7 +18,7 @@ function Banking() {
                 <div className="global-parts">
                     <div className="all-revenues">
                         <div className="revenue-types">
-                            <div className="revenue-item">
+                            <div className="revenue-item item1">
                                 <div className="about-revenue">
                                     <div className="subheading">
                                         Boost incremental profit from embedded
@@ -44,15 +44,15 @@ function Banking() {
 
                             <div className="image-wrapper image2">
                                 <img
-                                    src="https://images.ctfassets.net/fzn2n1nzq965/4fpTHtAAGHp0w5mxqi8drN/8923f7f593c747df4d7f41b370e28970/embedded-mobile.png?q=80&fm=webp&w=335"
+                                    src="https://images.ctfassets.net/fzn2n1nzq965/6YqaU6vJa97m5PkYC5Sa0d/b528c8fb8bc939e71196b207eb998ea5/deposits.png?q=80&fm=webp&w=211"
                                     alt="Sign in image"
                                 />
                             </div>
                         </div>
 
                         <div className="revenue-types">
-                            <div className="revenue-item">
-                                <div className="about-revenue">
+                            <div className="revenue-item ">
+                                <div className="about-revenue item2">
                                     <div className="subheading">
                                         Embed financial services in weeks, not
                                         months
@@ -82,7 +82,8 @@ function Banking() {
 
                             <div className="image-wrapper image2">
                                 <img
-                                    src="https://images.ctfassets.net/fzn2n1nzq965/4fpTHtAAGHp0w5mxqi8drN/8923f7f593c747df4d7f41b370e28970/embedded-mobile.png?q=80&fm=webp&w=335"
+                                    className="img"
+                                    src="https://images.ctfassets.net/fzn2n1nzq965/5vEzQIVjXA3RLUDS903N1W/c903e61931c76c2b0cf42bdad300efca/embeddedfinancialservices.png?q=80&fm=webp&w=335"
                                     alt="Sign in image"
                                 />
                             </div>
@@ -91,10 +92,13 @@ function Banking() {
 
                     <div className="all-sponsor">
                         <div className="sponsor">
-                            <img
-                                src="https://res.cloudinary.com/dkp7kraja/image/upload/v1692803598/Video/t03bzeh1yzzxgowmm66b.png"
-                                alt="Sign in image"
-                            />
+                            <div className="sponsor-img">
+                                <img
+                                    src="https://res.cloudinary.com/dkp7kraja/image/upload/v1692803598/Video/t03bzeh1yzzxgowmm66b.png"
+                                    alt="Sign in image"
+                                />
+                            </div>
+
                             <div className="desc">
                                 <div className="name">Guide</div>
                                 <div className="fame">

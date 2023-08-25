@@ -1,11 +1,15 @@
 import React from 'react'
 import './Report.scss'
 
-function Report({tag , title ,about , link}) {
+function Report({tag , title ,about , link , svg}) {
   return (
     <div className='card-report'>
 
+
         <div className="tag-wrap">
+             <div className="svg-icon">
+              {svg}
+             </div>
             <p>{tag}</p>
         </div>
 

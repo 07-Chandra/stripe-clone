@@ -188,11 +188,14 @@ function Global() {
                                 </div>
                             </div>
 
-                            <div className="image-wrapper image2">
-                                <img
-                                    src="https://images.ctfassets.net/fzn2n1nzq965/7ItzfiwAthFMoAox6VUfiG/825d386aa14d322432d711c3878aa1ce/authrates.png?q=80&fm=webp"
-                                    alt="Sign in image"
-                                />
+                            <div className="image-wrapper image2 image3">
+                                <div className="wrap">
+                                    <img
+                                     className="img"
+                                        src="https://images.ctfassets.net/fzn2n1nzq965/7ItzfiwAthFMoAox6VUfiG/825d386aa14d322432d711c3878aa1ce/authrates.png?q=80&fm=webp"
+                                        alt="Sign in image"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>

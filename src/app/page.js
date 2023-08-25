@@ -12,11 +12,11 @@ import Working from "./components/Working/Working";
 export default function Home() {
     return (
         <main style={{display:'flex', flexDirection : 'column' , rowGap:'50px'}}>
-            {/* <Hero /> */}
-            {/* <Global/> */}
-            {/* <Banking/> */}
-            {/* <Finance /> */}
-            {/* <Authorization/> */}
+            <Hero />
+            <Global/>
+            <Banking/>
+            <Finance />
+            <Authorization/>
             <Working />
             <Enterprise/>
             <Explore/>
